@@ -54,7 +54,7 @@ class Solution{
         //Complete the function
         
         Map<Integer,Integer> mp=new HashMap<>();
-     /*   int maxi=Integer.MIN_VALUE,sum=0;
+        int maxi=Integer.MIN_VALUE,sum=0;
         
         for(int i=0;i<A.length;i++){
             sum+=A[i];
@@ -69,7 +69,7 @@ class Solution{
                 
                 maxi=Math.max(maxi,(i-mp.get(required)));
             }
-            if(!mp.containsKey(required)){
+            if(!mp.containsKey(sum)){
             mp.put(sum,i);
             }
             
@@ -78,9 +78,9 @@ class Solution{
         if(maxi==Integer.MIN_VALUE){
             return 0;
         }
-        return maxi;
-    }*/
-      int sum=0;
+        
+    //}
+     /* int sum=0;
         int max=Integer.MIN_VALUE;
         HashMap<Integer,Integer> hm = new HashMap<>();
         for(int i=0;i<A.length;i++){
@@ -92,7 +92,8 @@ class Solution{
         if (max == Integer.MIN_VALUE){
             return 0;
         }
-        return max;
+        return max;*/
+        return maxi;
     }
     
     
